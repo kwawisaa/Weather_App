@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weatherAppStyle.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <nav id="searchNav">
+        <input type="text" placeholder="Search a Location" id="searchBar">
+        <button id="searchBtn" onclick="submitLocation()">Search</button>
+    </nav>
+
+    <div id="weatherApp-Container">
+        <div id="weatherApp-Content">
+            <p id="temperatureLbl">Temperature °C</p>
+            <p><span id="lblCity">City, </span> || <span id="lblDateTime">(Date & Time)</span></p>
+            
+        </div>
+
+        <div id="condition">
+            <img id ="icon" alt="Weather Icon"/>
+            <p id ="text"></p>
+        </div>
+    </div>
+
+<script src="weatherApp.js"></script>
+</body>
+</html>
