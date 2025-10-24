@@ -28,7 +28,7 @@ const fetchWeather = async(locationTarget)=>{
         lblDateTime.textContent = dateTimeLabel;
         temperatureLbl.textContent = `${temperature}°C`;
         weatherDescription.textContent = conditionText;
-        weatherIcon.img = conditionIcon;
+        weatherIcon.src = conditionIcon;
 
     }
 
